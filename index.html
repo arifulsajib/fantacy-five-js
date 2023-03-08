@@ -29,7 +29,7 @@
           <div class="col-12 col-md-3 d-none d-md-block position-relative">
             <div class="">
               <img src="./images/psg-banner-small.png" alt="" />
-              <div class="bg-deepgrey position-absolute bottom-0 end-0 border-top-left">
+              <div class="bg-deepgrey position-absolute bottom-0 end-0 border-top-left d-none d-lg-block">
                 <img src="./images/football.png" alt="" class="object-fit-cover img-fluid" style="max-width: 70px" />
               </div>
             </div>
@@ -41,64 +41,88 @@
         <div class="row">
           <!-- Players Cards part -->
           <div class="col-8">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3" id="players">
               <!-- p1 -->
               <div class="col">
                 <div class="card bg-black text-white border-0 rounded shadow">
                   <img src="./images/players/1.png" alt="" class="card-img-top" style="max-height: 260px" />
-                  <h5 class="fw-bold text-center mt-3">Lionel Messi</h5>
+                  <h5 class="fw-bold text-center mt-3" id="player-1-name">Lionel Messi</h5>
                   <p class="text-center">36 Goals * 120 Assist</p>
-                  <button class="btn btn-primary mx-3 mb-3"> SELECT</button>
+                  <button class="btn btn-primary mx-3 mb-3" id="player-1-btn"> SELECT</button>
                 </div>
               </div>
               <!-- p2 -->
               <div class="col">
                 <div class="card bg-black text-white border-0 rounded shadow">
                   <img src="./images/players/2.png" alt="" class="card-img-top" style="max-height: 260px" />
-                  <h5 class="fw-bold text-center mt-3">Neymar Jr</h5>
+                  <h5 class="fw-bold text-center mt-3" id="player-2-name">Neymar Jr</h5>
                   <p class="text-center">36 Goals * 120 Assist</p>
-                  <button class="btn btn-primary mx-3 mb-3"> SELECT</button>
+                  <button class="btn btn-primary mx-3 mb-3" id="player-2-btn"> SELECT</button>
                 </div>
               </div>
               <!-- p3 -->
               <div class="col">
                 <div class="card bg-black text-white border-0 rounded shadow">
                   <img src="./images/players/3.png" alt="" class="card-img-top" style="max-height: 260px" />
-                  <h5 class="fw-bold text-center mt-3">Kylian Mbappé</h5>
+                  <h5 class="fw-bold text-center mt-3" id="player-3-name">Kylian Mbappé</h5>
                   <p class="text-center">36 Goals * 120 Assist</p>
-                  <button class="btn btn-primary mx-3 mb-3"> SELECT</button>
+                  <button class="btn btn-primary mx-3 mb-3" id="player-3-btn"> SELECT</button>
                 </div>
               </div>
               <!-- p4 -->
               <div class="col">
                 <div class="card bg-black text-white border-0 rounded shadow">
                   <img src="./images/players/4.png" alt="" class="card-img-top" style="max-height: 260px" />
-                  <h5 class="fw-bold text-center mt-3">Vítor Machado</h5>
+                  <h5 class="fw-bold text-center mt-3" id="player-4-name">Vítor Machado</h5>
                   <p class="text-center">36 Goals * 120 Assist</p>
-                  <button class="btn btn-primary mx-3 mb-3"> SELECT</button>
+                  <button class="btn btn-primary mx-3 mb-3" id="player-4-btn"> SELECT</button>
                 </div>
               </div>
               <!-- p5 -->
               <div class="col">
                 <div class="card bg-black text-white border-0 rounded shadow">
                   <img src="./images/players/5.png" alt="" class="card-img-top" style="max-height: 260px" />
-                  <h5 class="fw-bold text-center mt-3">Sergio Ramos</h5>
+                  <h5 class="fw-bold text-center mt-3" id="player-5-name">Sergio Ramos</h5>
                   <p class="text-center">36 Goals * 120 Assist</p>
-                  <button class="btn btn-primary mx-3 mb-3"> SELECT</button>
+                  <button class="btn btn-primary mx-3 mb-3" id="player-5-btn"> SELECT</button>
                 </div>
               </div>
               <!-- p6 -->
               <div class="col">
                 <div class="card bg-black text-white border-0 rounded shadow">
-                  <img src="./images/players/4.png" alt="" class="card-img-top" style="max-height: 260px" />
-                  <h5 class="fw-bold text-center mt-3">Renato Sanches</h5>
+                  <img src="./images/players/6.png" alt="" class="card-img-top" style="max-height: 260px" />
+                  <h5 class="fw-bold text-center mt-3" id="player-6-name">Renato Sanches</h5>
                   <p class="text-center">36 Goals * 120 Assist</p>
-                  <button class="btn btn-primary mx-3 mb-3"> SELECT</button>
+                  <button class="btn btn-primary mx-3 mb-3" id="player-6-btn"> SELECT</button>
                 </div>
               </div>
               <!-- p7 -->
+              <div class="col">
+                <div class="card bg-black text-white border-0 rounded shadow">
+                  <img src="./images/players/7.jpg" alt="" class="card-img-top" style="max-height: 260px" />
+                  <h5 class="fw-bold text-center mt-3" id="player-7-name">Gianluigi Donnarumma</h5>
+                  <p class="text-center">36 Goals * 120 Assist</p>
+                  <button class="btn btn-primary mx-3 mb-3" id="player-7-btn"> SELECT</button>
+                </div>
+              </div>
               <!-- p8 -->
+              <div class="col">
+                <div class="card bg-black text-white border-0 rounded shadow">
+                  <img src="./images/players/8.jpg" alt="" class="card-img-top" style="max-height: 260px" />
+                  <h5 class="fw-bold text-center mt-3" id="player-8-name">Marquinhos</h5>
+                  <p class="text-center">36 Goals * 120 Assist</p>
+                  <button class="btn btn-primary mx-3 mb-3" id="player-8-btn"> SELECT</button>
+                </div>
+              </div>
               <!-- p9 -->
+              <div class="col">
+                <div class="card bg-black text-white border-0 rounded shadow">
+                  <img src="./images/players/9.jpg" alt="" class="card-img-top" style="max-height: 260px" />
+                  <h5 class="fw-bold text-center mt-3" id="player-9-name">Robert Lewandowski</h5>
+                  <p class="text-center">36 Goals * 120 Assist</p>
+                  <button class="btn btn-primary mx-3 mb-3" id="player-9-btn"> SELECT</button>
+                </div>
+              </div>
             </div>
           </div>
           <!-- selection sidebar part -->
@@ -111,12 +135,8 @@
                 <img src="./images/underline-img.png" alt="" class="mx-auto" style="max-width: 100%" />
               </div>
               <!-- selected list -->
-              <ol>
-                <li class="ps-lg-2 mb-3">Lionel Messi</li>
-                <li class="ps-lg-2 mb-3">Lionel Messi</li>
-                <li class="ps-lg-2 mb-3">Lionel Messi</li>
-                <li class="ps-lg-2 mb-3">Lionel Messi</li>
-                <li class="ps-lg-2 mb-3">Lionel Messi</li>
+              <ol id="selected-players">
+                <!-- player li will be added through js -->
               </ol>
             </div>
             <!-- Budget -->
@@ -132,31 +152,31 @@
                 <div class="d-md-flex justify-content-between align-items-center">
                   <p class="mb-0">Per Player</p>
                   <div>
-                    <input type="number" min="1" class="form-control text-white bg-black border-white" />
+                    <input type="number" min="1" class="form-control text-white bg-black border-white" id="per-player-input" />
                   </div>
                 </div>
                 <!-- calculate btn -->
-                <button class="btn btn-primary w-100 my-2">Calculate</button>
+                <button class="btn btn-primary w-100 my-2" id="calculate-expense-btn">Calculate</button>
                 <!-- player expenses -->
-                <p>Player Expenses: $ <span class="fw-bold">5000</span></p>
+                <p>Player Expenses: $ <span class="fw-bold" id="player-expenses">00</span></p>
                 <!-- Manager cost input -->
                 <div class="d-md-flex justify-content-between align-items-center my-2">
                   <p class="mb-0">Manager</p>
                   <div>
-                    <input type="number" min="1" class="form-control text-white bg-black border-white" />
+                    <input type="number" min="1" class="form-control text-white bg-black border-white" id="manager-cost-input" />
                   </div>
                 </div>
                 <!-- Coach cost input -->
                 <div class="d-md-flex justify-content-between align-items-center my-2">
                   <p class="mb-0">Coach</p>
                   <div>
-                    <input type="number" min="1" class="form-control text-white bg-black border-white" />
+                    <input type="number" min="1" class="form-control text-white bg-black border-white" id="coach-cost-input" />
                   </div>
                 </div>
                 <!-- Calculate Total btn -->
-                <button class="btn btn-primary w-100 my-2">Calculate Total</button>
+                <button class="btn btn-primary w-100 my-2" id="calculate-total-btn">Calculate Total</button>
                 <!-- Total -->
-                <p>Player Expenses: $ <span class="fw-bold">11000</span></p>
+                <p>Total Expenses: $ <span class="fw-bold text-orange" id="total-expenses">00</span></p>
               </div>
             </div>
           </div>
